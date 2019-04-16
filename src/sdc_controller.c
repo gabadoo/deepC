@@ -1,14 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <conio.h>
+#include "extApi.c"
+#include "extApi.h"
 #include "extApiPlatform.h"
+#include "extApiPlatform.c"
+#include "extApiInternal.h"
+
 #define MAX_EXT_API_CONNECTIONS=255
 #define NON_MATLAB_PARSING
 #define DO_NOT_USE_SHARED_MEMORY
 
-extern "C"{
-#include "extApi.h"
-}
 
 int main (int argc,char* argv[])
 {
