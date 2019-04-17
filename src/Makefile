@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/user/code/deepC/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/code/deepC/src/build
+CMAKE_BINARY_DIR = /home/user/code/deepC/src
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/code/deepC/src/build/CMakeFiles /home/user/code/deepC/src/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/code/deepC/src/CMakeFiles /home/user/code/deepC/src/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/code/deepC/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/code/deepC/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named deepC
+# Target rules for targets named src
 
 # Build rule for target.
-deepC: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 deepC
-.PHONY : deepC
+src: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 src
+.PHONY : src
 
 # fast build rule for target.
-deepC/fast:
-	$(MAKE) -f CMakeFiles/deepC.dir/build.make CMakeFiles/deepC.dir/build
-.PHONY : deepC/fast
+src/fast:
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/build
+.PHONY : src/fast
 
 sdc_controller.o: sdc_controller.c.o
 
@@ -129,7 +129,7 @@ sdc_controller.o: sdc_controller.c.o
 
 # target to build an object file
 sdc_controller.c.o:
-	$(MAKE) -f CMakeFiles/deepC.dir/build.make CMakeFiles/deepC.dir/sdc_controller.c.o
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/sdc_controller.c.o
 .PHONY : sdc_controller.c.o
 
 sdc_controller.i: sdc_controller.c.i
@@ -138,7 +138,7 @@ sdc_controller.i: sdc_controller.c.i
 
 # target to preprocess a source file
 sdc_controller.c.i:
-	$(MAKE) -f CMakeFiles/deepC.dir/build.make CMakeFiles/deepC.dir/sdc_controller.c.i
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/sdc_controller.c.i
 .PHONY : sdc_controller.c.i
 
 sdc_controller.s: sdc_controller.c.s
@@ -147,7 +147,7 @@ sdc_controller.s: sdc_controller.c.s
 
 # target to generate assembly for a file
 sdc_controller.c.s:
-	$(MAKE) -f CMakeFiles/deepC.dir/build.make CMakeFiles/deepC.dir/sdc_controller.c.s
+	$(MAKE) -f CMakeFiles/src.dir/build.make CMakeFiles/src.dir/sdc_controller.c.s
 .PHONY : sdc_controller.c.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... deepC"
+	@echo "... src"
 	@echo "... edit_cache"
 	@echo "... sdc_controller.o"
 	@echo "... sdc_controller.i"

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/user/code/deepC/src/sdc_controller.c" "/home/user/code/deepC/src/build/CMakeFiles/deepC.dir/sdc_controller.c.o"
+  "/home/user/code/deepC/src/sdc_controller.c" "/home/user/code/deepC/src/CMakeFiles/deepC.dir/sdc_controller.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

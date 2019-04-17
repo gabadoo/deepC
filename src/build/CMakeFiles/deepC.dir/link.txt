@@ -1,1 +1,0 @@
-/usr/bin/cc   -rdynamic CMakeFiles/deepC.dir/sdc_controller.c.o  -o deepC 

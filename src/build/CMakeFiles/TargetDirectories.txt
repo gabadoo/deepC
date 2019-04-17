@@ -1,3 +1,0 @@
-/home/user/code/deepC/src/build/CMakeFiles/rebuild_cache.dir
-/home/user/code/deepC/src/build/CMakeFiles/deepC.dir
-/home/user/code/deepC/src/build/CMakeFiles/edit_cache.dir

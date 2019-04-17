@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/user/code/deepC/src")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/user/code/deepC/src/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/user/code/deepC/src")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
