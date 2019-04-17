@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/code/deepC/src/sdc_controller.c
+stdio.h
+-
+stdlib.h
+-
+extApi.c
+/home/user/code/deepC/src/extApi.c
+extApi.h
+/home/user/code/deepC/src/extApi.h
+extApiPlatform.h
+/home/user/code/deepC/src/extApiPlatform.h
+extApiPlatform.c
+/home/user/code/deepC/src/extApiPlatform.c
+extApiInternal.h
+/home/user/code/deepC/src/extApiInternal.h
+
