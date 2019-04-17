@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "extApi.c"
+#include "./connections/remoteApi/extApi.c"
 #include "extApi.h"
 #include "extApiPlatform.h"
 #include "extApiPlatform.c"

@@ -11,8 +11,8 @@ stdio.h
 -
 stdlib.h
 -
-extApi.c
-/home/user/code/deepC/src/extApi.c
+./connections/remoteApi/extApi.c
+/home/user/code/deepC/src/./connections/remoteApi/extApi.c
 extApi.h
 /home/user/code/deepC/src/extApi.h
 extApiPlatform.h
