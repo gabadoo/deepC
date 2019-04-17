@@ -21,6 +21,7 @@ int main (int argc,char* argv[])
 		printf("connected to remote api server\n");
 		printf("\n Number of ID: %d",clientID);
 		simxAddStatusbarMessage(clientID,"HEY VREP",simx_opmode_oneshot);
+	
 	 simxFinish(clientID);
 	}
 	else{
