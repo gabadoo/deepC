@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRemote.a  CMakeFiles/Remote.dir/remoteApi/extApi.c.o CMakeFiles/Remote.dir/remoteApi/extApiPlatform.c.o
+/usr/bin/ranlib libRemote.a
